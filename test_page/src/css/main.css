@@ -1,0 +1,51 @@
+@import './details/content.css';
+@import './details/pagetop.css';
+@import './details/footer.css';
+
+body {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(236, 246, 205);
+}
+
+.container {
+  /* position: absolute; */
+  /* top: 0;
+  left: 9%; */
+  margin: 0 auto;
+  width: 1440px;
+  height: 1666px;
+}
+
+.page-top {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 1440px;
+	height: 100px;
+	background-color: #ffffff;
+}
+
+.content {
+  /* position: absolute; */
+  top: 100px;
+  width: 1440px;
+  height: 1276px;
+  background-color: rgb(242, 247, 250);
+}
+
+.page-footer {
+  /* position: absolute; */
+  bottom: 37px;
+  width: 1440px;
+  height: 253px;
+  background-color: #202124;
+}
+
+.page-bottom {
+  /* position: absolute; */
+  bottom: 0;
+  width: 1440px;
+  height: 37px;
+  background-color: black;
+}

@@ -1,0 +1,61 @@
+.logo {
+  position: relative;
+  width: 105px;
+	height: 30px;
+  background-color: #f92525;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 144px;
+  top: 35px;
+}
+
+.logo-font {
+  font-size: 12px; 
+	font-family: MyriadPro-Regular;
+	color: #fff;
+}
+
+.settings {
+  position: absolute;
+  margin-left: 1080px;
+  top: 41px;
+}
+
+.icon-settings {
+  width: 17px;
+	height: 18px;
+	background-color: #262b2e;
+	opacity: 0.7;
+}
+
+.bell {
+  position: absolute;
+  margin-left: 1123px;
+  top: 41px;
+}
+
+.icon-bell {
+  width: 18px;
+  height: 18px;
+  background-color: #262b2e;
+  opacity: 0.7;
+}
+
+.logout {
+  position: absolute;
+  width: 110px;
+	height: 40px;
+  background-color: #f92525;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1191px;
+  top: 30px;
+}
+
+.logout-font {
+  font-size: 13px;
+  font-family: Raleway-Bold;
+	color: #ffffff;
+}

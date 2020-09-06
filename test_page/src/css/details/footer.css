@@ -1,0 +1,43 @@
+.logo-footer {
+  position: relative;
+  width: 105px;
+	height: 30px;
+  background-color: #f92525;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 144px;
+  top: 81px;
+}
+
+.logofont-footer {
+  font-size: 12px; 
+	font-family: MyriadPro-Regular;
+	color: #fff;
+}
+
+.tabbar {
+  margin-left: 320px;
+  margin-top: 51px;
+  width: 776px;
+	height: 95px;
+}
+
+.tabbar table {
+  text-align: left;
+}
+
+.first_tabbar th{
+  width: 160px;
+}
+
+.tabbar th a{
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: Raleway-Bold;
+}
+
+.tabbar tr th a:hover {
+  border-bottom: 1px solid #fff;
+}

@@ -1,0 +1,77 @@
+.rotation_chart {
+  position: relative;
+  top: 14px;
+  float: left;
+  width: 539px;
+  height: 267px;
+  left: 17px;
+}
+
+
+ul {
+  list-style: none;
+}
+
+.img li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.img .active {
+  opacity: 1;
+}
+
+.img img {
+  cursor: pointer;
+}
+
+.dot {
+  position: absolute;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  bottom: 20px;
+}
+
+.dot li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: solid 2px #fff;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.dot .current {
+  background-color: #fff;
+  box-shadow: 0 0 1px 5px rgba(0, 0, 0, 0.3)
+}
+
+.btn {
+  position: absolute;
+  color: #fff;
+  cursor: pointer;
+  background-color: darkgray;
+  width: 20px;
+  height: 50px;
+  text-align: center;
+  top: 44%;
+  opacity: 0.3;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.left_btn {
+  left: 0;
+}
+
+.right_btn {
+  right: 0;
+}

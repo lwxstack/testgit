@@ -1,0 +1,38 @@
+.navbar {
+  position: relative;
+  top: 40px;
+  left: 810px;
+  width: 475px;
+  height: 16px;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.navbar ul li {
+  flex: 1;
+  font-family: OpenSans-Bold;
+  font-size: 13px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  display: block;
+  color: #262b2e;
+  text-decoration: none;
+  transition: color 0.3s linear;
+}
+
+.navbar ul .nav_active a, .navbar ul li a:hover {
+  color: red;
+  border-bottom: 1px solid deepskyblue;
+}
+
+.bg {
+  position: relative;
+  transition: all 0.3s ease;
+}

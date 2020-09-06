@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<script src="./echarts.js"></script>
+<style>
+  @import url("./src/css/main.css");
+</style>
+<body>
+<div class="container">
+  <div class="page-top">
+    <div class="logo">
+      <div class="logo-font">LOGO</div>
+    </div>
+    <div class="settings">
+      <img src="./src/img/settings.jpg" alt="" class="icon-settings">
+    </div>
+    <div class="bell">
+      <img src="./src/img/bell.jpg" alt="" class="icon-bell">
+    </div>
+    <div class="logout">
+      <div class="logout-font">Log&nbsp;Out</div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="description">
+      <div class="event">Audence&nbsp;Overview</div>
+      <div class="addr">Roseville,&nbsp;CA</div>
+    </div>
+
+    <div class="navbar">
+      <ul>
+        <li class="nav_active"><a href="#">DASHBOARD</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="#">CALENDAR</a></li>
+        <li><a href="#">MAILBOX</a></li>
+        <li><a href="#">SETTINGS</a></li>
+      </ul>
+      <div class="bg"></div>
+    </div>
+
+    <div class="content-box">
+      <div class="rotation_chart">
+        <ul class="img">
+          <li class="active"><img src="https://via.placeholder.com/539x267/0ff0f0/808080?text=first_img" alt="First img"></li>
+          <li><img src="https://via.placeholder.com/539x267/fff000/808080?text=second_img" alt="Second img"></li>
+          <li><img src="https://via.placeholder.com/539x267/00ff00/808080?text=third_img" alt="Third img"></li>
+          <li><img src="https://via.placeholder.com/539x267/0000ff/808080?text=fourth_img" alt="Fourth img"></li>
+          <li><img src="https://via.placeholder.com/539x267/000000/808080?text=fifth_img" alt="Fifth img"></li>        
+        </ul>
+        <ul class="dot">
+          <li class="current"></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <div class="left_btn btn"></div>
+        <div class="right_btn btn"></div>
+      </div>
+
+      <div class="info">
+        <div class="info-top">Support&nbsp;Requests</div>
+        <button class="info_btn">View All</button>
+        <hr>
+        <table>
+          <tr class="info-title">
+            <th class="first-th">TIME</th>
+            <th class="second-th">USER NAME</th>
+            <th class="third-th">STATUS</th>
+          </tr>
+          <tr class="info-list">
+            <th>9:45pm</th>
+            <th>info@design.com</th>
+            <th class="info_status"><div>Solved</div></th>
+          </tr>
+          <tr class="info-list">
+            <th>9:45pm</th>
+            <th>info@design.com</th>
+            <th class="info_status"><div>Solved</div></th>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div id="curve_chart"></div>
+    <div id="pie_chart"></div>
+    <div id="bar_chart"></div>
+  </div>
+
+  <div class="page-footer">
+    <div class="logo-footer">
+      <div class="logofont-footer">LOGO</div>
+    </div>
+    <div class="tabbar">
+      <table>
+        <tr class="first_tabbar">
+          <th><a href="#">NEWS</a></th>
+          <th><a href="#">SPORT</a></th>
+          <th><a href="#">WEATHER</a></th>
+          <th><a href="#">FUTURE</a></th>
+          <th><a href="#">TRAVEL</a></th>
+        </tr>
+        <tr>
+          <th><a href="#">CHANNELS</a></th>
+          <th><a href="#">CULTURE</a></th>
+          <th><a href="#">AUTOS</a></th>
+          <th><a href="#">FOOD</a></th>
+          <th><a href="#">RADIO</a></th>
+        </tr>
+        <tr>
+          <th><a href="#">OVERVIEW</a></th>
+          <th><a href="#">NATURE</a></th>
+          <th><a href="#">LOCAL</a></th>
+          <th><a href="#">EARTH</a></th>
+        </tr>
+        <tr>
+          <th><a href="#">TIMELINE</a></th>
+          <th><a href="#">MUSIC</a></th>
+          <th><a href="#">SHOP</a></th>
+          <th><a href="#">TV</a></th>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="page-bottom"></div>
+</div>
+
+<script src="./src/js/navbar.js"></script>
+<script src="./src/js/rotation.js"></script>
+<script src="./src/js/charts.js"></script>
+</body>
+</html>
